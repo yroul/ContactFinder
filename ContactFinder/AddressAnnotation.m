@@ -10,7 +10,6 @@
 
 @implementation AddressAnnotation
 @synthesize coordinate,title,subtitle;
-
 - (NSString *)subtitle{
 	return subtitle;
 }
