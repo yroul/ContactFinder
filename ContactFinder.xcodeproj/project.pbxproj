@@ -28,6 +28,7 @@
 		E896D91D16DE5D3C003BBA49 /* celine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E896D91C16DE5D3C003BBA49 /* celine.jpg */; };
 		E896D92016DE5E3A003BBA49 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = E896D91F16DE5E3A003BBA49 /* MapView.m */; };
 		E896D92316DE6091003BBA49 /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E896D92216DE6091003BBA49 /* AddressAnnotation.m */; };
+		E8A6700816DF561D0045DA47 /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A6700716DF561D0045DA47 /* remove.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		E896D91F16DE5E3A003BBA49 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
 		E896D92116DE6091003BBA49 /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAnnotation.h; sourceTree = "<group>"; };
 		E896D92216DE6091003BBA49 /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAnnotation.m; sourceTree = "<group>"; };
+		E8A6700716DF561D0045DA47 /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		E896D8E416DE4840003BBA49 /* ContactFinder */ = {
 			isa = PBXGroup;
 			children = (
+				E8A6700716DF561D0045DA47 /* remove.png */,
 				E896D91C16DE5D3C003BBA49 /* celine.jpg */,
 				E896D91A16DE5D31003BBA49 /* claire.jpg */,
 				E896D91516DE52EC003BBA49 /* michel.jpg */,
@@ -232,6 +235,7 @@
 				E896D91616DE52EC003BBA49 /* michel.jpg in Resources */,
 				E896D91B16DE5D31003BBA49 /* claire.jpg in Resources */,
 				E896D91D16DE5D3C003BBA49 /* celine.jpg in Resources */,
+				E8A6700816DF561D0045DA47 /* remove.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +376,7 @@
 				E896D90016DE4840003BBA49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,4 +12,5 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *contactIcon;
 @property (weak, nonatomic) IBOutlet UILabel *contactName;
+@property (weak, nonatomic) IBOutlet UIImageView *removeButton;
 @end

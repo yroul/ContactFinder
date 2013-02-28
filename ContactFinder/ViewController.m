@@ -35,7 +35,7 @@ Contact *selectedContact;
     contactLoc.longitude=39.281516;
     contactLoc.latitude = 39.281516;
     myContact = [[Contact alloc]init:@"Claire" WithPhone:545415 Mail:@"claire@babes.com" AndLongi:6.184416999999939 AndLat:48.692054];
-    [myContact setImage: [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"claire" ofType:@"jpg"]]];
+    [ myContact setImage: [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"claire" ofType:@"jpg"]]];
     [contacts addObject:myContact];
     contactLoc.longitude=45.484;
     contactLoc.latitude = -89.454;
@@ -51,6 +51,8 @@ Contact *selectedContact;
     
     contactList.delegate = self;
     contactList.dataSource = self;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -81,7 +83,6 @@ Contact *selectedContact;
     Contact *curr = (Contact*)[contacts objectAtIndex:indexPath.row];
     cell.contactIcon.image = [curr image];
     cell.contactName.text = [curr name];
-    
     return cell;
     
 }
@@ -89,8 +90,7 @@ Contact *selectedContact;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     int idx=indexPath.row;
     selectedContact = [contacts objectAtIndex:idx];
-    [self performSegueWithIdentifier:@"segueToContact" sender:nil];
-    
+    [self performSegueWithIdentifier:@"segueToContact" sender:nil];    
     
 }
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
@@ -102,5 +102,19 @@ Contact *selectedContact;
     }
     
 }
+-(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView beginUpdates];
+    
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        // Delete the row from the data source
+        
+      //  [contacts removeObjectAtIndex:indexPath.row];
+        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        [tableView reloadData];
+    }
+     [tableView endUpdates];
+    
+}
+
 
 @end
