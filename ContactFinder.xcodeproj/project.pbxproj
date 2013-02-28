@@ -18,6 +18,16 @@
 		E896D8F516DE4840003BBA49 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E896D8F416DE4840003BBA49 /* Default-568h@2x.png */; };
 		E896D8F816DE4840003BBA49 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E896D8F616DE4840003BBA49 /* MainStoryboard.storyboard */; };
 		E896D8FB16DE4840003BBA49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E896D8FA16DE4840003BBA49 /* ViewController.m */; };
+		E896D90416DE48F0003BBA49 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E896D90316DE48F0003BBA49 /* CustomCell.xib */; };
+		E896D90616DE490E003BBA49 /* MyCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E896D90516DE490E003BBA49 /* MyCustomCell.m */; };
+		E896D90B16DE4A13003BBA49 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = E896D90A16DE4A13003BBA49 /* Contact.m */; };
+		E896D90D16DE4A5A003BBA49 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E896D90C16DE4A5A003BBA49 /* MapKit.framework */; };
+		E896D91616DE52EC003BBA49 /* michel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E896D91516DE52EC003BBA49 /* michel.jpg */; };
+		E896D91916DE541E003BBA49 /* ContactView.m in Sources */ = {isa = PBXBuildFile; fileRef = E896D91816DE541E003BBA49 /* ContactView.m */; };
+		E896D91B16DE5D31003BBA49 /* claire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E896D91A16DE5D31003BBA49 /* claire.jpg */; };
+		E896D91D16DE5D3C003BBA49 /* celine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E896D91C16DE5D3C003BBA49 /* celine.jpg */; };
+		E896D92016DE5E3A003BBA49 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = E896D91F16DE5E3A003BBA49 /* MapView.m */; };
+		E896D92316DE6091003BBA49 /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E896D92216DE6091003BBA49 /* AddressAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,21 @@
 		E896D8F716DE4840003BBA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E896D8F916DE4840003BBA49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E896D8FA16DE4840003BBA49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E896D90316DE48F0003BBA49 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCell.xib; path = ../../ImagePicker/ImagePicker/CustomCell.xib; sourceTree = "<group>"; };
+		E896D90516DE490E003BBA49 /* MyCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCustomCell.m; path = ../../ImagePicker/ImagePicker/MyCustomCell.m; sourceTree = "<group>"; };
+		E896D90716DE4916003BBA49 /* MyCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyCustomCell.h; path = ../../ImagePicker/ImagePicker/MyCustomCell.h; sourceTree = "<group>"; };
+		E896D90916DE4A0C003BBA49 /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = ../../ImagePicker/ImagePicker/Contact.h; sourceTree = "<group>"; };
+		E896D90A16DE4A13003BBA49 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = ../../ImagePicker/ImagePicker/Contact.m; sourceTree = "<group>"; };
+		E896D90C16DE4A5A003BBA49 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E896D91516DE52EC003BBA49 /* michel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = michel.jpg; path = ../../../michel.jpg; sourceTree = "<group>"; };
+		E896D91716DE541E003BBA49 /* ContactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactView.h; sourceTree = "<group>"; };
+		E896D91816DE541E003BBA49 /* ContactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactView.m; sourceTree = "<group>"; };
+		E896D91A16DE5D31003BBA49 /* claire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = claire.jpg; path = ../../../claire.jpg; sourceTree = "<group>"; };
+		E896D91C16DE5D3C003BBA49 /* celine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = celine.jpg; path = ../../../celine.jpg; sourceTree = "<group>"; };
+		E896D91E16DE5E3A003BBA49 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		E896D91F16DE5E3A003BBA49 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		E896D92116DE6091003BBA49 /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAnnotation.h; sourceTree = "<group>"; };
+		E896D92216DE6091003BBA49 /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E896D90D16DE4A5A003BBA49 /* MapKit.framework in Frameworks */,
 				E896D8DF16DE4840003BBA49 /* UIKit.framework in Frameworks */,
 				E896D8E116DE4840003BBA49 /* Foundation.framework in Frameworks */,
 				E896D8E316DE4840003BBA49 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +82,7 @@
 		E896D8D216DE4840003BBA49 = {
 			isa = PBXGroup;
 			children = (
+				E896D90C16DE4A5A003BBA49 /* MapKit.framework */,
 				E896D8E416DE4840003BBA49 /* ContactFinder */,
 				E896D8DD16DE4840003BBA49 /* Frameworks */,
 				E896D8DC16DE4840003BBA49 /* Products */,
@@ -83,11 +110,15 @@
 		E896D8E416DE4840003BBA49 /* ContactFinder */ = {
 			isa = PBXGroup;
 			children = (
+				E896D91C16DE5D3C003BBA49 /* celine.jpg */,
+				E896D91A16DE5D31003BBA49 /* claire.jpg */,
+				E896D91516DE52EC003BBA49 /* michel.jpg */,
+				E896D90816DE4A02003BBA49 /* Models */,
+				E896D90216DE4888003BBA49 /* Controllers */,
+				E896D90116DE4870003BBA49 /* Views */,
 				E896D8ED16DE4840003BBA49 /* AppDelegate.h */,
 				E896D8EE16DE4840003BBA49 /* AppDelegate.m */,
 				E896D8F616DE4840003BBA49 /* MainStoryboard.storyboard */,
-				E896D8F916DE4840003BBA49 /* ViewController.h */,
-				E896D8FA16DE4840003BBA49 /* ViewController.m */,
 				E896D8E516DE4840003BBA49 /* Supporting Files */,
 			);
 			path = ContactFinder;
@@ -105,6 +136,40 @@
 				E896D8F416DE4840003BBA49 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E896D90116DE4870003BBA49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E896D90316DE48F0003BBA49 /* CustomCell.xib */,
+				E896D92116DE6091003BBA49 /* AddressAnnotation.h */,
+				E896D92216DE6091003BBA49 /* AddressAnnotation.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E896D90216DE4888003BBA49 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E896D90716DE4916003BBA49 /* MyCustomCell.h */,
+				E896D90516DE490E003BBA49 /* MyCustomCell.m */,
+				E896D8FA16DE4840003BBA49 /* ViewController.m */,
+				E896D8F916DE4840003BBA49 /* ViewController.h */,
+				E896D91716DE541E003BBA49 /* ContactView.h */,
+				E896D91816DE541E003BBA49 /* ContactView.m */,
+				E896D91E16DE5E3A003BBA49 /* MapView.h */,
+				E896D91F16DE5E3A003BBA49 /* MapView.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E896D90816DE4A02003BBA49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E896D90A16DE4A13003BBA49 /* Contact.m */,
+				E896D90916DE4A0C003BBA49 /* Contact.h */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +228,10 @@
 				E896D8F316DE4840003BBA49 /* Default@2x.png in Resources */,
 				E896D8F516DE4840003BBA49 /* Default-568h@2x.png in Resources */,
 				E896D8F816DE4840003BBA49 /* MainStoryboard.storyboard in Resources */,
+				E896D90416DE48F0003BBA49 /* CustomCell.xib in Resources */,
+				E896D91616DE52EC003BBA49 /* michel.jpg in Resources */,
+				E896D91B16DE5D31003BBA49 /* claire.jpg in Resources */,
+				E896D91D16DE5D3C003BBA49 /* celine.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +245,11 @@
 				E896D8EB16DE4840003BBA49 /* main.m in Sources */,
 				E896D8EF16DE4840003BBA49 /* AppDelegate.m in Sources */,
 				E896D8FB16DE4840003BBA49 /* ViewController.m in Sources */,
+				E896D90616DE490E003BBA49 /* MyCustomCell.m in Sources */,
+				E896D90B16DE4A13003BBA49 /* Contact.m in Sources */,
+				E896D91916DE541E003BBA49 /* ContactView.m in Sources */,
+				E896D92016DE5E3A003BBA49 /* MapView.m in Sources */,
+				E896D92316DE6091003BBA49 /* AddressAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
